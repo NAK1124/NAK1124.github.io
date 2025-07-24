@@ -1,7 +1,7 @@
 /* --------------------------------------- */
 /* ----- Basic Setup ----- */
 /* --------------------------------------- */
-
+.page {}
 @font-face {
     font-family: 'Hk Grotesk';
     font-style: normal;
@@ -36,7 +36,7 @@
 
     --black: #000;
     --pink: #ff3258;
-    --white: #f0e9f2;
+    --black: #000000;
     --white-1: #e5e5e6da;
 
 
@@ -70,9 +70,9 @@ body {
     font-size: var(--font-size-small);
     font-family: var(--font-stack);
     font-weight: 400;
-    color: var(--white-1);
+    color: var(--black-1);
     line-height: var(--line-height-normal);
-    background: var(--black);
+    background: var(--white);
     overflow-x: hidden;
 }
 
@@ -405,7 +405,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .header {
     background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
-        url('./images/header.jpg');
+        url('./images/Pic.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
